@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Japanese Culture Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <header>
+            <h1>Nihon Culture Quiz</h1>
+            <p>Test your knowledge of Japan!</p>
+        </header>
+
+        <main>
+            <div class="quiz-card">
+                <div class="quiz-info">
+                    <span id="question-number">1</span> / <span id="total-questions">5</span>
+                </div>
+
+                <div id="question-container">
+                    Question text will appear here...
+                </div>
+
+                <div id="answer-buttons" class="btn-grid">
+                    </div>
+
+                <button id="next-btn" class="next-btn hide">Next Question &rarr;</button>
+            </div>
+
+            <div id="result-container" class="result-card hide">
+                <h2>Quiz Completed!</h2>
+                <p>You scored <span id="score">0</span> out of <span id="total-score">5</span></p>
+                <p id="feedback-message"></p>
+                <button id="restart-btn" class="restart-btn">Play Again</button>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
